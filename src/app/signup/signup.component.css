@@ -24,3 +24,12 @@
     box-shadow: none;
     border: 0;
 }
+.card a{
+    display: block;
+    text-align: right;
+}
+@media (min-width:320px) and (max-width:768px){
+    .card{
+        width: calc(100% - 24px);
+    } 
+}
