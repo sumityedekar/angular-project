@@ -1,0 +1,24 @@
+<div class="container-fluid bg-img">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center mb-3">
+                    <h1>Restaurent Login</h1>
+                    <h5>Fell free to login</h5>
+                </div>
+                <form [formGroup]="loginForm" (ngSubmit)="logIn()">                    
+                    <div class="mb-3">
+                        <label  class="form-label">Email address</label>
+                        <input formControlName="email" type="email" class="form-control" placeholder="Enter email here">                    
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input formControlName="password" type="password" class="form-control" placeholder="Entere password here">
+                    </div>
+                    <button type="submit" class="btn w-100 btn-primary mt-4 mb-2">Login</button>
+                    <a routerLink="/signup">New User?</a>
+                </form>                
+            </div>
+        </div>
+    </div>
+</div>

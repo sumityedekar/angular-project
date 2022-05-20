@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "Yummy Resto",
+      "email": "yummy@gmail.com",
+      "mobile": "1234567890",
+      "address": "pune",
+      "services": "chai"
+    },
+    {
+      "id": 4,
+      "name": "China",
+      "email": "china@gmail.com",
+      "mobile": "1234567899",
+      "address": "dahisar",
+      "services": "fast food"
+    },
+    {
+      "id": 5,
+      "name": "dummy",
+      "email": "dummy@gmail.com",
+      "mobile": "3214569870",
+      "address": "adfa",
+      "services": "kdslf"
+    },
+    {
+      "id": 6,
+      "name": "Amir",
+      "email": "amir@gmail.com",
+      "mobile": "1236548520",
+      "address": "asfaf",
+      "services": "eafefeaf"
+    },
+    {
+      "id": 7,
+      "name": "Ved",
+      "email": "ved@gmail.com",
+      "mobile": "3214569870",
+      "address": "asff",
+      "services": "afafa"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Sumit",
+      "mobile": "8974561230",
+      "email": "sumit@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Amir",
+      "mobile": "12345678901",
+      "email": "amir@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Suraj",
+      "mobile": "1236547890",
+      "email": "suraj@gmail.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
